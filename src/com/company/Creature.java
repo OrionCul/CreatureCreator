@@ -23,6 +23,7 @@ public class Creature {
 
     public void printCreatureStats(){
         System.out.println("Your creature has " + this.numberOfEyes + " eye(s), " + this.numberOfArms + " arm(s), and " + this.numberOfLegs + " leg(s).");
+
     }
 
     public int getNumberOfEyes() {
