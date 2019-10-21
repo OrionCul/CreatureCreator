@@ -25,6 +25,28 @@ public class Main {
 
         creatureObject.printCreatureStats();
 
-        
+        System.out.print("\nDO YOU WANT TO EDIT YOUR CREATURE? (Y/N): ");
+        char answer = input.next().toLowerCase().charAt(0);
+
+        if (answer == 'y'){
+            System.out.print("New number of eyes: ");
+            numberOfEyes = input.nextInt();
+
+            System.out.print("New number of arms: ");
+            numberOfArms = input.nextInt();
+
+            System.out.print("New number of legs: ");
+            numberOfLegs = input.nextInt();
+
+            creatureObject.setNumberOfEyes(numberOfEyes);
+            creatureObject.setNumberOfArms(numberOfArms);
+            creatureObject.setNumberOfLegs(numberOfLegs);
+
+            System.out.println("\nYOUR REMODELLED CREATURE:");
+            creatureObject.printCreatureStats();
+        } else {
+            System.out.println("\nENDING PROGRAM.....");
+        }
+
     }
 }

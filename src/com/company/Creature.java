@@ -16,14 +16,11 @@ public class Creature {
 
     //Creature Constructor with parameters
     public Creature(int numOfEyes, int numOfArms, int numOfLegs){
-        this.numberOfEyes = numOfEyes;
-        this.numberOfArms = numOfArms;
-        this.numberOfLegs = numOfLegs;
+        //TODO: Implement the Constructor
     }
 
     public void printCreatureStats(){
-        System.out.println("Your creature has " + this.numberOfEyes + " eye(s), " + this.numberOfArms + " arm(s), and " + this.numberOfLegs + " leg(s).");
-
+        //TODO: Implement this print method
     }
 
     public int getNumberOfEyes() {
@@ -35,19 +32,19 @@ public class Creature {
     }
 
     public int getNumberOfArms() {
-        return this.numberOfArms;
+        //TODO: Implement this getter
     }
 
     public void setNumberOfArms(int numberOfArms) {
-        this.numberOfArms = numberOfArms;
+        //TODO: Implement this setter
     }
 
     public int getNumberOfLegs() {
-        return this.numberOfLegs;
+        //TODO: Implement this getter
     }
 
     public void setNumberOfLegs(int numberOfLegs) {
-        this.numberOfLegs = numberOfLegs;
+        //TODO: Implement this setter
     }
 
 }
